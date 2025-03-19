@@ -2,13 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elden Ring</title>
   </head>
   <body>
-    <h1>Welcome to the Home Page</h1>
-    <p>This is the home page of the website.</p>
-    <a href="AboutPage.html">About Page</a>
+    <div id="GameTitle">Elden Ring</div>
+    <div class="MainMenu">
+
+      <div>
+        <a target="_self" href="file:///D:/X-OneDrive/All%20html%20Tests/Elden%20Ring.html"><h1>Home</h1></a>
+      </div>
+
+      <div>
+        <a target="_self" href="file:///D:/X-OneDrive/All%20html%20Tests/IMDB%20Clone.html"><h1>Movie Section</h1></a>
+      </div>
+
+      <div>
+        <a target="_self" href="file:///D:/X-OneDrive/All%20html%20Tests/Social%20Media.html"><h1>Social Media</h1></a>
+      </div>
+
+      <div>
+        <a target="_self" href="file:///D:/X-OneDrive/All%20html%20Tests/GoogleWeb.html"><h1>Google</h1></a>
+      </div>
+
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color: #222;
+            text-size-adjust: 15;
+            margin: 15px;
+            padding: 15px;
+        }
+        /* This is how to change link color in CSS. */
+        a {
+            color: rgb(216, 219, 16); /* Set the default color */
+            text-decoration: none; /* Optional: removes underline */
+        }
+        a:visited {
+            color: rgb(255, 216, 23); /* Ensures visited links remain the same color */
+        }
+        
+        a:hover {
+            color: red; /* Optional: changes color when hovering */
+        }
+        
+        a:active {
+            color: green; /* Optional: changes color when clicked */
+        }
+        .MainMenu {
+          background-color: #444;
+          color: aliceblue;
+          text-align: left;
+          display: wrap;
+          flex-wrap: flex;
+          padding: 15px;
+          margin: 15px;
+          border-radius: 25px;
+          font-family: century gothic;
+          width: 275px;
+        }
+
+        #GameTitle {
+            color: rgb(255, 191, 0);
+            text-align: center;
+            background-color: #444;
+            padding: 15px;
+            margin: 0px;
+            font-size: x-large;
+            font-family: century gothic;
+            border-radius: 17px;        
+        }
+    </style>
   </body>
 </html>
