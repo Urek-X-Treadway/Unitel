@@ -78,8 +78,8 @@ a:active {
     width: 265px;
     padding: 10px 0;
     background-color: black;
-    color: rgb(247, 217, 21);
-    border: 2px solid rgb(255, 218, 8);
+    color: #f6bc0e;
+    border: 2px solid #f6bc0e;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
@@ -87,13 +87,10 @@ a:active {
 }
 
 .MenuButtons a:hover {
-    background-color: rgb(255, 219, 16);
+    background-color: #f6bc0e;
     color: black;
     border-color: black;
 }
-
-
-
 
 .Dacon {
     background-color: #444;
@@ -101,4 +98,29 @@ a:active {
     background-position-y: center;
     margin: 15px;
     padding: 15px;
-  }
+}
+
+.IMDBbutton {
+    display: flex;
+    text-align: center;    
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.IMDBbutton a {
+    display: inline-block;
+    width: 265px;
+    padding: 10px 0;
+    background-color: black;
+    color: rgb(247, 217, 21);
+    border: 2px solid rgb(255, 218, 8);
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+.IMDBbutton a:hover {
+    background-color: rgb(255, 219, 16);
+    color: black;
+    border-color: black;
+}
