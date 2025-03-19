@@ -95,3 +95,10 @@ a:active {
 
 
 
+.Dacon {
+    background-color: #444;
+    text-align: center;
+    background-position-y: center;
+    margin: 15px;
+    padding: 15px;
+  }
