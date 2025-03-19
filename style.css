@@ -14,11 +14,11 @@ a:visited {
 }
 
 a:hover {
-    color: red; /* Optional: changes color when hovering */
+    color: rgb(0, 0, 0); /* Optional: changes color when hovering */
 }
 
 a:active {
-    color: green; /* Optional: changes color when clicked */
+    color: rgb(247, 19, 19); /* Optional: changes color when clicked */
 }
 .MainMenu {
   background-color: #444;
