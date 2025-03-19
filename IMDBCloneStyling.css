@@ -1,0 +1,105 @@
+body {
+    background-color: #222;
+    text-size-adjust: 15;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    color:rgb(255, 207, 13);
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.movie-card {
+    background-color: #444;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 245px;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.imdb-button {
+    background-color: #ffcb0e;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 200px;
+}
+.imdb-button:hover {
+    background-color: black;
+    color: #f6bc0e;
+    border: #f6bc0e;
+    border: 2px solid
+
+}
+
+
+#WebTitle {
+    color: rgb(255, 191, 0);
+    text-align: center;
+    background-color: #444;
+    padding: 15px;
+    margin: 0px;
+    font-size: x-large;
+    font-family: century gothic;
+    border-radius: 17px;        
+}
+
+.MenuButtons {
+    background-color: #444;
+    color: aliceblue;
+    text-align: center;
+    display: wrap;
+    flex-wrap: flex;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+    font-family: century gothic;
+    width: 275px;
+}
+
+
+.MainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+    gap: 50px; /* Space between menu and title */
+}
+
+.MenuButtons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;
+}
+
+.MenuButtons a {
+    display: inline-block;
+    width: 265px;
+    padding: 10px 0;
+    background-color: black;
+    color: rgb(247, 217, 21);
+    border: 2px solid rgb(255, 218, 8);
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.MenuButtons a:hover {
+    background-color: rgb(255, 219, 16);
+    color: black;
+    border-color: black;
+}
