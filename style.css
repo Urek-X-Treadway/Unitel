@@ -6,11 +6,11 @@ body {
 }
 /* This is how to change link color in CSS. */
 a {
-    color: rgb(216, 219, 16); /* Set the default color */
+    color: rgb(252, 255, 83); /* Set the default color */
     text-decoration: none; /* Optional: removes underline */
 }
 a:visited {
-    color: rgb(255, 216, 23); /* Ensures visited links remain the same color */
+    color: rgb(255, 207, 13); /* Ensures visited links remain the same color */
 }
 
 a:hover {
