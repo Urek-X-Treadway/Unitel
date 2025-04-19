@@ -65,8 +65,7 @@ body {
     display: wrap;
     flex-wrap: flex;
     padding: 15px;
-    margin: 15px;
-    border-radius: 25px;
+    margin: 50px auto;
     font-family: century gothic;
     width: 275px;
 }
