@@ -53,8 +53,7 @@ a:active {
     display: wrap;
     flex-wrap: flex;
     padding: 15px;
-    margin: 15px;
-    border-radius: 25px;
+    margin: 50px auto;
     font-family: century gothic;
     width: 275px;
 }
@@ -120,6 +119,36 @@ a:active {
     border-radius: 10px;
 }
 .IMDBbutton a:hover {
+    background-color: rgb(255, 219, 16);
+    color: black;
+    border-color: black;
+}
+
+#calculator {
+    background-color: #121212;
+    width: 500px;
+    height: 250px;
+    margin: 50px auto;             /* Center the section itself */
+    text-align: center;
+    border: 3px solid goldenrod;
+}
+
+
+
+
+
+#calculator_title {
+    display: inline-block;
+    width: 170px;
+    padding: 10px 0;
+    background-color: black;
+    color: rgb(254, 211, 0);
+    border: 2px solid rgb(254, 211, 0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+}
+#calculator_title:hover {
     background-color: rgb(255, 219, 16);
     color: black;
     border-color: black;
